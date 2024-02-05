@@ -1,5 +1,5 @@
 <template>
-  <div class="container-xxl" style="padding: 50px;height: 60vh;">
+  <div class="container-xxl" style="padding: 10px;height: 60vh;">
     <div class="row mb-4">
       <h1 class="header-line">Hyundai Line</h1>
     </div>
@@ -112,7 +112,17 @@
             <h2>Clock</h2>
           </div>
           <div class="card-body">
-            <h1>{{ clock }}</h1>
+            <h2>{{ clock }}</h2>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card border-dark">
+          <div class="card-header border-dark">
+            <h2>OEE</h2>
+          </div>
+          <div class="card-body">
+            <h2>98.9%</h2>
           </div>
         </div>
       </div>
@@ -122,7 +132,7 @@
             <h2>Target</h2>
           </div>
           <div class="card-body">
-            <h1>500</h1>
+            <h2>500</h2>
           </div>
         </div>
       </div>
@@ -132,7 +142,7 @@
             <h2>Plan</h2>
           </div>
           <div class="card-body">
-            <h1>319</h1>
+            <h2>319</h2>
           </div>
         </div>
       </div>
@@ -142,7 +152,7 @@
             <h2>Actual</h2>
           </div>
           <div class="card-body">
-            <h1>318</h1>
+            <h2>318</h2>
           </div>
         </div>
       </div>
